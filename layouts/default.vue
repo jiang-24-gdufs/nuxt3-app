@@ -2,10 +2,15 @@
     <!-- nuxt docs flex layout -->
     <div class="flex flex-col h-screen w-screen">
         <header class="h-16 sticky">
-            <div class="mx-auto">Header</div>
+            <div class="mx-auto">
+                <Header></Header>
+            </div>
+
         </header>
         <main class="flex flex-1">
-            <aside class="w-12">aside</aside>
+            <aside class="w-12">
+                <Nav></Nav>
+            </aside>
             <section class="flex-1">
                 <slot />
             </section>
@@ -13,7 +18,7 @@
         </main>
         <footer class="h-16">
             <div class="mx-auto">
-                Footer
+                <Footer></Footer>
             </div>
         </footer>
 

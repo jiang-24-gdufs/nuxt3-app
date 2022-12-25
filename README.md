@@ -43,7 +43,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## Features
 
-- [ ] UnoCSS [#](https://github.com/unocss/unocss/tree/main/packages/nuxt) 
+- [x] UnoCSS [#](https://github.com/unocss/unocss/tree/main/packages/nuxt) 
 
 ## Todo
 
